@@ -1,25 +1,33 @@
 # --- Ambientes Virtuais ---
+# Ignora a pasta do ambiente virtual, que contém as bibliotecas instaladas.
+# Ela é pesada e específica da sua máquina.
 .venv/
 venv/
 env/
 
 # --- Arquivos de Cache do Python ---
+# Ignora as pastas de cache geradas pelo Python para otimização.
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
 # --- Arquivos de Configuração Local e Segredos ---
+# ESSENCIAL: Ignora o arquivo .env, que contém suas senhas e chaves de API.
+# Nunca envie segredos para um repositório público!
 .env
 *.env
 
 # --- Arquivos de IDEs e Editores de Código ---
+# Ignora pastas de configuração de editores como VS Code e PyCharm.
 .vscode/
 .idea/
 
 # --- Arquivos de Sistema Operacional ---
+# Ignora arquivos gerados pelo sistema operacional.
 .DS_Store
 Thumbs.db
 
 # --- Logs ---
+# Ignora arquivos de log que a aplicação possa gerar.
 *.log
