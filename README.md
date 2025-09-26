@@ -87,6 +87,8 @@ Este passo é crucial para a conexão com o banco de dados.
   # Substitua pela sua string de conexão do MongoDB Atlas
   # Lembre-se de substituir <password> pela sua senha e, se necessário, o nome do banco.
   MONGO_URL="mongodb+srv://<user>:<password>@<cluster-url>/<db-name>?retryWrites=true&w=majority"
+  APP_HOST=0.0.0.0
+  APP_PORT=8000
   ```
 
 ## ▶️ Executando a Aplicação
