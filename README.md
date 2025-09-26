@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 Este passo é crucial para a conexão com o banco de dados.
 
-- Crie uma cópia do arquivo `.env.example` (se houver) ou crie um novo arquivo chamado `.env` na raiz do projeto.
+- Crie um novo arquivo chamado `.env` na raiz do projeto.
 - Adicione a sua **Connection String** do MongoDB Atlas a este arquivo:
 
   ```env
