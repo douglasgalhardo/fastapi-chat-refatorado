@@ -49,8 +49,8 @@ Siga os passos abaixo para configurar e rodar o projeto localmente.
 **1. Clonar o Repositório**
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <NOME_DA_PASTA_DO_PROJETO>
+git clone https://github.com/douglasgalhardo/fastapi-chat-refatorado.git
+cd fastapi-chat-refatorado
 ```
 
 **2. Criar e Ativar o Ambiente Virtual**
